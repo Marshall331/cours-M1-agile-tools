@@ -1,0 +1,43 @@
+/*************  ✨ Windsurf Command ⭐  *************/
+./.idea/**
+
+# Ignore node_modules
+/node_modules
+
+
+# Ignore log files
+*.log
+
+# Ignore temp files
+*.tmp
+*.swp
+*.swo
+
+# Ignore user files
+*.user
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS files
+.DS_Store
+.Thumbs.db
+ehthumbs.db
+TheVolumesFolder
+.fontcache
+.LocalStorage
+*.psd
+*.vpd
+*.pdb
+*.opendatabase
+*.gsheet
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Ignore OS X files
+*.spotlight$
