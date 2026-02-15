@@ -7,9 +7,10 @@ Ce document définit les US techniques et leurs critères , ainsi les bonus qu'e
 ## `[INFRA_TEST]` - Infrastructure de test
 
 ### Critères d'Acceptation
+- mise en place de la librairie de tests dans le code → ⚂ Tirer **1 ou 2**
 - Environnement de test isolé → ⚂ Tirer **3 ou +**
-- Données de test automatisées → ⚃ Tirer **4 ou +**
-- Base de données de test dédiée → ⚂ Tirer **impair**
+- Données de test automatisées (migration) → ⚃ Tirer **4 ou +**
+- librairie d'assertions moderne   → ⚂ Tirer **impair**
 - Containers de test (Docker) → ⚄ Tirer **pair**
 
 ### 🎁 Bonus débloqué
