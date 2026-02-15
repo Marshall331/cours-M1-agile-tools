@@ -245,7 +245,7 @@ Story A : Sync Google Calendar
 **Origine :** Framework SAFe (Scaled Agile Framework)
 
 **Philosophie :**
-Prioriser les jobs qui ont le **plus grand coût du retard** (Cost of Delay) par rapport à leur **durée**.
+Prioriser les jobs qui ont le **plus grand coût du retard** (COD : Cost of Delay) par rapport à leur **durée**.
 
 > "Faire d'abord ce qui coûte le plus cher si on attend"
 
@@ -434,9 +434,9 @@ WSJF = (User-Business Value + Time Criticality + Risk Reduction) / Job Size
 ### Exemple de tableau Excel WSJF
 
 ```
-| Story | User-Biz | Time Crit | Risk | CoD | Size | WSJF | Rank |
-|-------|----------|-----------|------|-----|------|------|------|
-| A     | 8        | 5         | 3    | =B+C+D | 3  | =E/F | =RANK(G) |
+| Story | User-Biz | Time Crit | Risk | CoD      | Size | WSJF | Rank    |
+|-------|----------|-----------|------|----------|------|------|----------|
+| A     | 8        | 5         | 3    | =B+C+D   | 3.   | =E/F | =RANK(G) |
 ```
 
 Formules automatiques → gain de temps
