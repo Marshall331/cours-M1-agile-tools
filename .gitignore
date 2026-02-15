@@ -1,5 +1,6 @@
-/*************  ✨ Windsurf Command ⭐  *************/
-./.idea/**
+# IDE
+.idea/
+.vscode/
 
 # Ignore node_modules
 /node_modules

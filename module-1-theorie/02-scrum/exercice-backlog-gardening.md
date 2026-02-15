@@ -120,16 +120,10 @@ Questions à vous poser :
 
 ---
 
-## Mission 3 : Estimer la valeur métier 💰 (5 minutes)
+## Mission 3 : Estimer la valeur métier 💰 (15-20 minutes)
 
-**Objectif :** Estimer la **valeur business** de chaque story pour prioriser intelligemment
+**Objectif :** Estimer la **valeur business** de chaque story avec une méthode structurée
 
-### Échelle de valeur métier (Fibonacci aussi)
-
-**1-2 points :** Valeur faible (nice to have)
-**3-5 points :** Valeur moyenne (améliore l'expérience)
-**8-13 points :** Valeur haute (fonctionnalité clé)
-**21+ points :** Valeur critique (bloquant pour le lancement)
 
 ### Critères de valeur
 
@@ -138,31 +132,315 @@ Questions à vous poser :
 - **Différenciation :** Feature unique vs standard ?
 - **Impact business :** Revenu ? Rétention ? Acquisition ?
 
-### Estimez la valeur de vos stories prioritaires
 
-| ID | Story | Valeur métier | Justification |
-|----|-------|---------------|---------------|
-| 1 | Créer tâche | ___ | MVP, sans ça l'app ne sert à rien |
-| 10 | Marquer terminée | ___ | Fonctionnalité de base |
-| 13 | Voir liste | ___ | Essentiel |
-| 15 | Modifier | ___ | Erreurs fréquentes |
-| 16 | Supprimer | ___ | Nettoyage |
-| 8 | Notifications | ___ | Forte valeur ajoutée ? |
-| 5 | Sync Google Calendar | ___ | Différenciation ? |
-| ... | ... | ... | ... |
+### Étape 1 : Choisir une méthode (5 min)
 
-**Astuce :** Le **ratio Valeur/Effort** aide à prioriser :
-- Story à forte valeur + faible effort = **à faire en priorité** 🎯
-- Story à faible valeur + fort effort = **à reporter** ⏸️
+Votre équipe doit choisir UNE méthode parmi :
 
-**Calculez le ratio (optionnel) :**
+**Option A : Business Value Points (Fibonacci) - Recommandé pour débutants**
+- Échelle 1, 2, 3, 5, 8, 13, 21
+- Estimation relative basée sur des critères
 
-| ID | Valeur | Effort | Ratio V/E | Priorité |
-|----|--------|--------|-----------|----------|
-| 16 | 5 | 1 | 5.0 | ⭐⭐⭐ Excellent |
-| 10 | 8 | 2 | 4.0 | ⭐⭐⭐ Excellent |
-| 13 | 13 | 3 | 4.3 | ⭐⭐⭐ Excellent |
-| 5 | 8 | 8 | 1.0 | ⭐ À évaluer |
+**Option B : MoSCoW + Value Points**
+- D'abord catégoriser (Must/Should/Could/Won't)
+- Puis affiner avec des points dans chaque catégorie
+
+**Option C : WSJF (Weighted Shortest Job First) - Pour avancés**
+- Calcul : (User Value + Time Criticality + Risk) / Effort
+- Plus complexe mais plus complet
+
+---
+
+### Étape 2 : Si vous choisissez Business Value Points (recommandé)
+
+**Échelle de valeur métier (Fibonacci) :**
+- **1-2 points :** Nice to have (faible valeur)
+- **3-5 points :** Amélioration notable
+- **8-13 points :** Fonctionnalité clé
+- **21+ points :** Critique pour le lancement
+
+**Critères d'évaluation (utilisez au moins 4) :**
+
+| Critère | Question à se poser | Poids |
+|---------|---------------------|-------|
+| 💰 **Revenu** | Génère des revenus directs ? | 0-5 |
+| 👥 **Impact utilisateur** | % d'utilisateurs concernés ? | 0-5 |
+| 📈 **Rétention** | Fidélise-t-il les utilisateurs ? | 0-5 |
+| 🚀 **Acquisition** | Attire nouveaux utilisateurs ? | 0-5 |
+| 🔥 **Fréquence** | Usage quotidien/hebdo/rare ? | 0-3 |
+| 🏆 **Différenciation** | Feature unique vs standard ? | 0-5 |
+| ⚖️ **Risque** | Que se passe-t-il si on ne le fait pas ? | 0-5 |
+
+**Exemple pour ID 8 (Notifications push) :**
+
+| Critère | Score | Justification |
+|---------|-------|---------------|
+| Revenu | 1 | Pas de revenu direct |
+| Impact utilisateur | 5 | 100% des utilisateurs concernés |
+| Rétention | 5 | Critiq ue pour ne pas oublier tâches |
+| Acquisition | 2 | Feature standard (concurrents l'ont) |
+| Fréquence | 3 | Usage quotidien |
+| Différenciation | 2 | Standard |
+| Risque | 5 | Sans ça, app peu utile |
+| **TOTAL** | **23** → **13 pts** (Fibonacci) | Valeur HAUTE |
+
+**Grille d'estimation rapide :**
+- Total < 10 → 1-3 pts
+- Total 10-15 → 5 pts
+- Total 16-25 → 8 pts
+- Total 26-35 → 13 pts
+- Total > 35 → 21 pts
+
+**Estimez VOS stories prioritaires :**
+
+| ID | Story | Rev | Impact | Ret | Acq | Freq | Diff | Risk | Total | Value (Fib) |
+|----|-------|-----|--------|-----|-----|------|------|------|-------|-------------|
+| 1 | Créer tâche | 0 | 5 | 5 | ___ | ___ | ___ | 5 | ___ | ___ |
+| 10 | Marquer terminée | ___ | ___ | ___ | ___ | ___ | ___ | ___ | ___ | ___ |
+| 13 | Voir liste | ___ | ___ | ___ | ___ | ___ | ___ | ___ | ___ | ___ |
+| 15 | Modifier | ___ | ___ | ___ | ___ | ___ | ___ | ___ | ___ | ___ |
+| 16 | Supprimer | ___ | ___ | ___ | ___ | ___ | ___ | ___ | ___ | ___ |
+| 8 | Notif push | 1 | 5 | 5 | 2 | 3 | 2 | 5 | 23 | 13 |
+| 5 | Sync Google Cal | ___ | ___ | ___ | ___ | ___ | ___ | ___ | ___ | ___ |
+| 7 | Listes perso | ___ | ___ | ___ | ___ | ___ | ___ | ___ | ___ | ___ |
+| 17 | Sous-tâches | ___ | ___ | ___ | ___ | ___ | ___ | ___ | ___ | ___ |
+
+---
+
+### Étape 2 bis : Si vous choisissez MoSCoW (alternative rapide)
+
+**Classez d'abord les stories :**
+
+**Must have (MVP) :**
+- Sans ces features, le produit est inutilisable
+- Ex : _______________
+
+**Should have (important) :**
+- Importantes mais contournables temporairement
+- Ex : _______________
+
+**Could have (nice to have) :**
+- Améliorent l'expérience mais pas critiques
+- Ex : _______________
+
+**Won't have (pas cette version) :**
+- Bonnes idées mais pas pour la beta
+- Ex : _______________
+
+**Puis affinez avec des points :**
+- Must : 13-21 pts par défaut
+- Should : 5-8 pts
+- Could : 2-3 pts
+- Won't : 0-1 pt
+
+---
+
+### Étape 2 ter : Si vous choisissez WSJF (avancé)
+
+**Méthode WSJF (Weighted Shortest Job First) du framework SAFe**
+
+> **Philosophie :** "Faire d'abord ce qui coûte le plus cher si on attend"
+
+**Formule :**
+```
+WSJF = Cost of Delay (CoD) / Job Size
+
+Où CoD = User-Business Value + Time Criticality + Risk Reduction/Opportunity
+```
+
+---
+
+**Pour chaque story, estimez 3 dimensions (échelle 1-10) :**
+
+#### 1. User-Business Value (1-10)
+
+**Question :** Quelle valeur pour les utilisateurs ET le business ?
+
+| Score | Signification |
+|-------|---------------|
+| 1-2 | Très peu d'utilisateurs, aucun impact business |
+| 3-4 | Quelques utilisateurs, impact business faible |
+| 5-6 | Usage moyen, impact business moyen |
+| 7-8 | Beaucoup d'utilisateurs, impact business fort |
+| 9-10 | Tous les utilisateurs, impact business critique |
+
+**Exemples EduTask :**
+```
+ID 1 (Créer tâche) : 10 (sans ça, app inutile)
+ID 8 (Notif push) : 9 (tous utilisateurs, usage quotidien)
+ID 28 (Thème sombre) : 3 (confort visuel, pas essentiel)
+```
+
+---
+
+#### 2. Time Criticality (1-10)
+
+**Question :** Quelle valeur perd-on si on retarde ?
+
+| Score | Urgence |
+|-------|---------|
+| 1-2 | Pas urgent (6 mois OK) |
+| 3-4 | Peu urgent (3 mois OK) |
+| 5-6 | Moyennement urgent (1 mois max) |
+| 7-8 | Urgent (2 semaines max) |
+| 9-10 | Très urgent (deadline fixe, perte immédiate) |
+
+**Questions à se poser :**
+- Y a-t-il une deadline contractuelle ou légale ?
+- La concurrence va-t-elle nous devancer ?
+- Lance-t-on une beta publique dans 1 mois ?
+
+**Exemples EduTask :**
+```
+ID 12 (Bug crash) : 10 (bloque le lancement beta)
+ID 1 (Créer tâche) : 10 (MVP pour beta dans 1 mois)
+ID 5 (Sync Google Cal) : 2 (nice to have, pas urgent)
+ID 28 (Thème sombre) : 1 (aucune urgence)
+```
+
+---
+
+#### 3. Risk Reduction / Opportunity Enablement (1-10)
+
+**Deux sous-dimensions :**
+
+**A. Risk Reduction (Réduction de risque)**
+- Réduit-on un risque technique, sécurité, ou business ?
+
+| Score | Type de risque |
+|-------|----------------|
+| 1-2 | Aucun risque |
+| 3-4 | Risque mineur (workaround possible) |
+| 5-6 | Dette technique moyenne |
+| 7-8 | Risque significatif (architecture, sécurité) |
+| 9-10 | Risque critique |
+
+**B. Opportunity Enablement (Opportunités débloquées)**
+- Cette feature débloque-t-elle d'autres features importantes ?
+
+| Score | Opportunités |
+|-------|--------------|
+| 1-2 | Feature isolée, aucune dépendance |
+| 3-4 | Facilite 1-2 features mineures |
+| 5-6 | Débloque plusieurs features |
+| 7-8 | Fondation pour roadmap entière |
+| 9-10 | Change de paradigme |
+
+**Combinaison :** Prendre le **maximum** des deux
+
+**Exemples EduTask :**
+```
+ID 12 (Bug crash) : 8 (risque de perdre utilisateurs, mauvaise réputation)
+ID 20 (Ajouter échéance) : 5 (débloque ID 4 "Trier par date", ID 8 "Notif")
+ID 28 (Thème sombre) : 0 (feature isolée)
+```
+
+---
+
+**Tableau d'estimation WSJF :**
+
+| ID | Story | User-Biz (1-10) | Time Crit (1-10) | Risk/Opp (1-10) | CoD (sum) | Effort | WSJF | Rang |
+|----|-------|-----------------|------------------|-----------------|-----------|--------|------|------|
+| 1 | Créer tâche | 10 | 10 | 5 | **25** | 3 | **8.3** | 🥇 |
+| 12 | Bug crash | 5 | 10 | 8 | **23** | 1 | **23.0** | 🥇 |
+| 8 | Notif push | 9 | 8 | 3 | **20** | 5 | **4.0** | 🥈 |
+| 13 | Voir liste | 10 | 10 | 5 | **25** | 3 | **8.3** | 🥇 |
+| 20 | Échéance | 8 | 7 | 5 | **20** | 2 | **10.0** | 🥇 |
+| 5 | Sync Google | 5 | 2 | 2 | **9** | 8 | **1.1** | 4 |
+| 28 | Thème sombre | 3 | 1 | 0 | **4** | 2 | **2.0** | 3 |
+
+**Interprétation du WSJF :**
+- **WSJF > 5** : Priorité TRÈS HAUTE (quick wins avec urgence)
+- **WSJF 2-5** : Priorité HAUTE
+- **WSJF 1-2** : Priorité MOYENNE
+- **WSJF < 1** : Faible priorité (reporter)
+
+**Votre tableau à remplir :**
+
+| ID | Story résumée | User-Biz | Time Crit | Risk/Opp | CoD | Effort | WSJF |
+|----|---------------|----------|-----------|----------|-----|--------|------|
+| 1 | Créer | ___ | ___ | ___ | =sum | 3 | =CoD/Effort |
+| 10 | Marquer done | ___ | ___ | ___ | ___ | 2 | ___ |
+| 13 | Voir liste | ___ | ___ | ___ | ___ | 3 | ___ |
+| 15 | Modifier | ___ | ___ | ___ | ___ | 3 | ___ |
+| 16 | Supprimer | ___ | ___ | ___ | ___ | 1 | ___ |
+| 8 | Notif push | ___ | ___ | ___ | ___ | 5 | ___ |
+| 5 | Sync Google | ___ | ___ | ___ | ___ | 8 | ___ |
+
+**Astuce :** Utilisez un tableur (Excel/Google Sheets) pour calculer automatiquement WSJF et trier !
+
+---
+
+### Étape 3 : Calculer le ratio Valeur/Effort (5 min)
+
+**Pour CHAQUE story estimée, calculez :**
+
+```
+Ratio V/E = Valeur (points) / Effort (points)
+```
+
+**Grille d'interprétation :**
+- **Ratio > 3.0** : ⭐⭐⭐ EXCELLENT (Quick win, à faire en priorité)
+- **Ratio 1.5-3.0** : ⭐⭐ BON (Valeur intéressante)
+- **Ratio 0.5-1.5** : ⭐ MOYEN (À évaluer selon contexte)
+- **Ratio < 0.5** : ❌ FAIBLE (Reporter ou abandonner)
+
+**Remplissez votre matrice :**
+
+| ID | Story | Valeur | Effort | Ratio V/E | Catégorie | Action |
+|----|-------|--------|--------|-----------|-----------|--------|
+| 16 | Supprimer | 5 | 1 | **5.0** | ⭐⭐⭐ | Sprint 1 |
+| 10 | Marquer terminée | 13 | 2 | **6.5** | ⭐⭐⭐ | Sprint 1 |
+| 1 | Créer tâche | 21 | 3 | **7.0** | ⭐⭐⭐ | Sprint 1 |
+| 13 | Voir liste | 21 | 3 | **7.0** | ⭐⭐⭐ | Sprint 1 |
+| 15 | Modifier | 8 | 3 | **2.7** | ⭐⭐ | Sprint 1-2 |
+| 8 | Notif push | 13 | 5 | **2.6** | ⭐⭐ | Sprint 2 |
+| 17 | Sous-tâches | 8 | 8 | **1.0** | ⭐ | Sprint 3+ |
+| 5 | Sync Google | 5 | 8 | **0.6** | ⭐ | v2 |
+| ... | ... | ... | ... | ... | ... | ... |
+
+---
+
+### Étape 4 : Matrice de priorisation visuelle (optionnel, 5 min)
+
+**Placez vos stories sur cette matrice :**
+
+```
+Valeur ↑
+   │
+21 │  [1] [13]
+   │
+13 │  [10] [8]
+   │
+ 8 │  [15]      [17]
+   │
+ 5 │  [16]            [5]
+   │
+ 1 │
+   └────────────────────────→ Effort
+     1    2    3    5    8   13
+
+Quadrants :
+- Haut-Gauche = PRIORITÉ MAX (forte valeur, faible effort)
+- Haut-Droit = À ÉVALUER (forte valeur, fort effort)
+- Bas-Gauche = Quick wins secondaires
+- Bas-Droit = À ÉVITER ou REPORTER
+```
+
+**Leçons à tirer :**
+- Stories dans le quadrant haut-gauche → Sprint 1
+- Stories dans le quadrant haut-droit → Découper si possible, sinon Sprint 2-3
+- Stories dans le quadrant bas-droit → v2 ou abandonner
+
+---
+
+### Questions de débriefing
+
+1. Quelle méthode avez-vous choisie ? Pourquoi ?
+2. Quelles stories ont la valeur la plus élevée ? Correspond-elle à votre intuition initiale ?
+3. Y a-t-il des surprises (stories que vous pensiez importantes mais avec faible ratio) ?
+4. En situation réelle, qui devrait faire cette estimation de valeur ? (PO seul ? Avec stakeholders ?)
+5. Combien de temps cela prendrait en vrai ? (estimation : 1-2h pour 20-30 stories)
 
 ---
 
