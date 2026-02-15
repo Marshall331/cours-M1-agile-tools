@@ -1,4 +1,4 @@
-# Système de Scoring - FlowMaster Agile Game
+# Guide de l'animateur - Système de Scoring - FlowMaster Agile Game
 
 ## 🎲 Principe général
 
@@ -64,23 +64,17 @@ Les **User Stories techniques** débloquent des **bonus permanents** pour tous l
 
 ---
 
-## 📊 Exemple d'évolution d'une équipe
+## 🍀  Changements et imprévus
 
-### Sprint 1 : Pas de bonus
-- **État** : 1 dé, critères à rejouer à chaque fois
-- **Vélocité** : Lente, beaucoup de relances nécessaires
+**À chaque début de sprint, l'animateur annonce :**
+- Nouveaux bugs découverts
+- Changements de priorité
+- Contraintes supplémentaires
+- Opportunités business
 
-### Sprint 2 : US "Infrastructure de test" `[INFRA_TEST]` terminée
-- **État** : 🎲 2 dés (double chances !)
-- **Vélocité** : Significativement améliorée
-
-### Sprint 3 : US "Pipeline CI/CD" `[CI/CD]` terminée
-- **État** : 🎲 2 dés + critères `[CI/CD]` permanents
-- **Vélocité** : Accélération, moins de travail à refaire
-
-### Sprint 4 : US "Monitoring" `[DEVOPS]` terminée
-- **État** : 🎲 2 dés + critères `[CI/CD]` permanents + 🔄 1 relance/sprint
-- **Vélocité** : Très élevée, équipe mature
+**Réaction attendue :**
+- **Scrum** : Absorber dans le prochain sprint (sauf bug critique)
+- **Kanban** : Ajuster le backlog immédiatement
 
 ---
 
@@ -143,7 +137,7 @@ En tant que [rôle], je veux [action], afin de [bénéfice].
 
 ## 🎲 Déroulement d'un sprint (mécanique de jeu)
 
-### 1. Planning (10-15 min)
+### 1. Planning (1-2 min)
 - Sélectionner les US à traiter dans le sprint
 - Vérifier les dépendances
 

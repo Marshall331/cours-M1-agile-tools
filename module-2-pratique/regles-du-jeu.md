@@ -21,13 +21,13 @@
 
 ### Déroulement d'un sprint (20 min)
 
-| Étape | Durée | Activité |
-|-------|-------|----------|
+| Étape | Durée | Activité                                                 |
+|-------|-------|----------------------------------------------------------|
 | **Sprint Planning** | 5 min | Sélectionner les stories (max vélocité), créer le Sprint |
-| **Développement** | 12 min | Réaliser les stories (écrire livrables) |
-| **Daily Standup** | 1 min | À mi-parcours (rapide tour de table) |
-| **Sprint Review** | 1 min | Démo des stories Done |
-| **Retrospective** | 1 min | 1 action d'amélioration |
+| **Développement** | 5 min | Réaliser les stories (écrire livrables)                  |
+| **Daily Standup** | 0 min | À mi-parcours (rapide tour de table)                     |
+| **Sprint Review** | 1 min | Démo des stories; tirer 6 au dé pour que ce soit Done    |
+| **Retrospective** | 1 min | 1 action d'amélioration                                  |
 
 **Contrainte Scrum :** Pas de nouveau travail en cours de sprint (sauf bugs critiques)
 
@@ -89,72 +89,11 @@
 
 Comme on ne peut pas coder en 3h, voici ce que vous devez produire pour qu'une story soit Done :
 
-#### Option A : Scénario utilisateur détaillé (recommandé pour débuter)
 
-**Format :** Rédiger un scénario d'usage dans les commentaires Jira
-
-**Exemple pour FM-7 (Ajouter un produit) :**
-```
-SCÉNARIO UTILISATEUR
-
-1. L'artisan clique sur "Mes produits" dans le menu
-2. Il clique sur le bouton "+ Ajouter un produit"
-3. Un formulaire s'affiche avec les champs :
-   - Nom du produit (obligatoire)
-   - Description (textarea, max 500 caractères)
-   - Prix (€, obligatoire, nombre décimal)
-   - Photo (upload, formats : JPG, PNG, max 5Mo)
-4. L'artisan remplit les champs :
-   - Nom : "Vase en céramique bleu"
-   - Description : "Vase artisanal..."
-   - Prix : 45.00
-   - Photo : vase.jpg
-5. Il clique sur "Publier"
-6. Le système affiche une confirmation : "Produit ajouté avec succès"
-7. Le produit apparaît dans la liste des produits de l'artisan
-8. Le produit est visible dans le catalogue public
-
-CAS D'ERREUR:
-- Si nom vide → "Le nom est obligatoire"
-- Si prix négatif → "Le prix doit être positif"
-- Si fichier trop gros → "Image trop volumineuse (max 5Mo)"
-```
-
-**Temps estimé :** 3-5 min par story
 
 ---
 
-#### Option B : Wireframe / Mockup (pour stories UI)
-
-**Format :** Dessiner l'interface (papier scanné OU outil comme Excalidraw) et attacher à Jira
-
-**Exemple pour FM-21 (Voir mon panier) :**
-```
-[Wireframe du panier]
-
-+------------------------------------------+
-|  Mon Panier                    [X]       |
-+------------------------------------------+
-| [Photo] Vase céramique bleu              |
-|         45.00 €                          |
-|         Qté : [2] [+][-]      [Retirer]  |
-|                                          |
-| [Photo] Bol en bois                      |
-|         28.00 €                          |
-|         Qté : [1] [+][-]      [Retirer]  |
-|                                          |
-+------------------------------------------+
-| Total : 118.00 €                         |
-|                                          |
-| [Continuer mes achats]  [Commander]      |
-+------------------------------------------+
-```
-
-**Temps estimé :** 5-8 min par story
-
----
-
-#### Option C : Système de dés avec critères d'acceptation 🎲 **[RETENUE]**
+####  Système de dés avec critères d'acceptation 🎲 **[RETENUE]**
 
 **Format :** Validation des critères d'acceptation par lancer de dés
 
@@ -204,10 +143,7 @@ CRITÈRES D'ACCEPTATION
    - Utiliser les bonus si débloqués
 3. **Fin du sprint** : Compter les US terminées (tous critères validés)
 
-**Stratégie recommandée :**
-- **Sprint 1-2** : Prioriser `[INFRA_TEST]` pour débloquer le 2ème dé
-- **Sprint 2-3** : Débloquer `[CI/CD]` et `[TESTS]` pour les critères permanents
-- **Sprint 4+** : Profiter des bonus pour accélérer les US fonctionnelles
+
 
 **Fichiers de référence :**
 - `systeme-de-scoring.md` - Documentation complète du système
@@ -218,44 +154,10 @@ CRITÈRES D'ACCEPTATION
 
 ---
 
-#### Option D : Pseudo-code / Algorithme (pour stories backend)
 
-**Exemple pour FM-18 (Trier par prix) :**
-```
-PSEUDO-CODE : Tri par prix
 
-ENDPOINT: GET /api/products?sort=price&order=asc
+### 4. Critères d'acceptation dans JIRA(optionnel)
 
-ALGORITHME:
-1. Récupérer tous les produits depuis la BDD
-2. Si paramètre 'sort' absent → ordre par défaut (date création DESC)
-3. Si sort=price :
-   a. Vérifier paramètre 'order' (asc/desc, défaut=asc)
-   b. Trier le tableau de produits :
-      - Si order=asc : prix croissant
-      - Si order=desc : prix décroissant
-   c. En cas d'égalité de prix → sous-tri par nom (alphabétique)
-4. Retourner JSON: { products: [...], total: X }
-
-CAS D'ERREUR:
-- Sort invalide → ignorer, ordre par défaut
-- Order invalide → défaut asc
-
-EXEMPLE SORTIE (sort=price&order=asc):
-[
-  { id: 12, name: "Bol bois", price: 28.00 },
-  { id: 8,  name: "Vase céramique", price: 45.00 },
-  { id: 3,  name: "Tableau peinture", price: 120.00 }
-]
-```
-
-**Temps estimé :** 5-7 min par story
-
----
-
-### 4. Critères d'acceptation (obligatoire)
-
-**Chaque story DOIT avoir des critères d'acceptation dans Jira.**
 
 **Utilisez la checklist de Jira** (ou les sous-tâches) :
 
@@ -338,18 +240,6 @@ BACKLOG → TO DO → IN PROGRESS → REVIEW → DONE
 **Outil :** Utiliser fiche-metriques.md ou Jira Reports
 
 ---
-
-### 9. Changements et imprévus
-
-**À chaque début de sprint, l'animateur annonce :**
-- Nouveaux bugs découverts
-- Changements de priorité
-- Contraintes supplémentaires
-- Opportunités business
-
-**Réaction attendue :**
-- **Scrum** : Absorber dans le prochain sprint (sauf bug critique)
-- **Kanban** : Ajuster le backlog immédiatement
 
 ---
 
