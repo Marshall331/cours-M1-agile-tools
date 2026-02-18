@@ -117,6 +117,35 @@ Bonus CI CD
 | 0 | 4 | Critère 4 | OK |
 | 0 | 3 | Critère 5 | OK |
 
+BUG 001
+
+| Sprint | Dés lancés | Critères validés | Statut |
+|--------|------------|------------------|--------|
+| 0 | 6 | Critère 1 | OK |
+| 0 | 6 | Critère 2 | OK |
+| 0 | 9 | Critère 3 | OK |
+| 0 | 1 | Critère 4 | OK |
+| 0 | 3 | Critère 5 | OK |
+
+FM7
+
+| Sprint | Dés lancés | Critères validés | Statut |
+|--------|------------|------------------|--------|
+| 0 | 1 | Critère 1 | OK |
+| 0 | 1 | Critère 2 | OK |
+| 0 | 4 | Critère 3 | OK |
+| 0 | 1 | Critère 4 | OK |
+| 0 | 12 | Critère 5 | OK |
+
+FM
+
+| Sprint | Dés lancés | Critères validés | Statut |
+|--------|------------|------------------|--------|
+| 0 | 2 | Critère 1 | OK |
+| 0 | 2 | Critère 2 | OK |
+| 0 | 2 | Critère 3 | OK |
+| 0 | 1 | Critère 4 | OK |
+
 
 ---
 
