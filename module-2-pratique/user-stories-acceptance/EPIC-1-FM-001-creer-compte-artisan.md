@@ -64,7 +64,7 @@ _Aucun (US fonctionnelle)_
 
 ### Historique des tentatives
 
-# FM1
+# EPIC-1-FM-1
 
 | Sprint | Dés lancés | Critères validés | Statut |
 |--------|------------|------------------|--------|
@@ -73,7 +73,7 @@ _Aucun (US fonctionnelle)_
 | 0 | 5 | Critère 3 : Compte créé en base de données | OK |
 | 0 | 4 | Critère 4 : Email de bienvenue envoyé | OK |
 
-# FM2
+# EPIC-1-FM-2
 
 | Sprint | Dés lancés | Critères validés | Statut |
 |--------|------------|------------------|--------|
