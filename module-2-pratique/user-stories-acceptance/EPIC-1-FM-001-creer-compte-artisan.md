@@ -146,6 +146,16 @@ FM
 | 0 | 2 | Critère 3 | OK |
 | 0 | 1 | Critère 4 | OK |
 
+Bonus infa test
+
+| Sprint | Dés lancés | Critères validés | Statut |
+|--------|------------|------------------|--------|
+| 0 | 1 | Critère 1 | OK |
+| 0 | 1 | Critère 2 | OK |
+| 0 | 1 | Critère 3 | OK |
+| 0 | 4 | Critère 4 | OK |
+| 0 | 1 | Critère 4 | OK |
+
 
 ---
 
