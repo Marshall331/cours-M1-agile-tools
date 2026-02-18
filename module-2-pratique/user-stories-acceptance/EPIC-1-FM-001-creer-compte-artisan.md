@@ -66,12 +66,11 @@ _Aucun (US fonctionnelle)_
 
 | Sprint | Dés lancés | Critères validés | Statut |
 |--------|------------|------------------|--------|
-|  | - | - | ⏳ Pas encore jouée |
-|   |   |   |  - |
-|   |   |   |  - |
-|   |   |   |  - |
-|   |   |   |  - |
-|   |   |   |  - |
+| 0 | 6 | Critère 1 : Formulaire d'inscription fonctionnel | ⏳ Pas encore jouée |
+| 0 | 2 |   |  Critère 2 : Validation des données |
+| 0 | 5 |   |  Critère 3 : Compte créé en base de données |
+| 0 | 4 |   |  Critère 4 : Email de bienvenue envoyé |
+
 
 ---
 
