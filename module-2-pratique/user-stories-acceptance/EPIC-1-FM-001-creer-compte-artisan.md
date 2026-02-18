@@ -93,9 +93,29 @@ _Aucun (US fonctionnelle)_
 
 | Sprint | Dés lancés | Critères validés | Statut |
 |--------|------------|------------------|--------|
-| 0 | 2 | Critère 1 | OK |
+| 0 | 1 | Critère 1 | OK |
 | 0 | 1 | Critère 2 | OK |
 | 0 | 5 | Critère 3 | OK |
+
+# EPIC-1-FM-7
+
+| Sprint | Dés lancés | Critères validés | Statut |
+|--------|------------|------------------|--------|
+| 0 | 1 | Critère 1 | OK |
+| 0 | 4 | Critère 2 | OK |
+| 0 | 1 | Critère 3 | OK |
+| 0 | 5 | Critère 4 | OK |
+| 0 | 5 | Critère 5 | OK |
+
+Bonus CI CD
+
+| Sprint | Dés lancés | Critères validés | Statut |
+|--------|------------|------------------|--------|
+| 0 | 1 | Critère 1 | OK |
+| 0 | 1 | Critère 2 | OK |
+| 0 | 2 | Critère 3 | OK |
+| 0 | 4 | Critère 4 | OK |
+| 0 | 3 | Critère 5 | OK |
 
 
 ---
