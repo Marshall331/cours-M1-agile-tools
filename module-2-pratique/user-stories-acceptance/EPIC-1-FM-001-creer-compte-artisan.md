@@ -81,6 +81,22 @@ _Aucun (US fonctionnelle)_
 | 0 | 1 | Critère 2 | OK |
 | 0 | 4 | Critère 3 | OK |
 
+# EPIC-1-FM-5
+
+| Sprint | Dés lancés | Critères validés | Statut |
+|--------|------------|------------------|--------|
+| 0 | 2 | Critère 1 | OK |
+| 0 | 2 | Critère 2 | OK |
+| 0 | 2 | Critère 3 | OK |
+
+# EPIC-1-FM-6
+
+| Sprint | Dés lancés | Critères validés | Statut |
+|--------|------------|------------------|--------|
+| 0 | 2 | Critère 1 | OK |
+| 0 | 1 | Critère 2 | OK |
+| 0 | 5 | Critère 3 | OK |
+
 
 ---
 
