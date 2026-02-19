@@ -176,45 +176,45 @@ _Aucun (US fonctionnelle)_
 
 | Sprint | Dés lancés | Critères validés | Statut |
 |--------|------------|------------------|--------|
-| 2 | 3 | Critère 1 | OK |
-| 2 | 1 | Critère 2 | OK |
-| 2 | 3 | Critère 3 | OK |
-| 2 | 4 | Critère 4 | OK |
-| 2 | 2 | Critère 4 | OK |
+| 3 | 3 | Critère 1 | OK |
+| 3 | 1 | Critère 2 | OK |
+| 3 | 3 | Critère 3 | OK |
+| 3 | 4 | Critère 4 | OK |
+| 3 | 2 | Critère 4 | OK |
 
 # EPIC-2-FM-9
 
 | Sprint | Dés lancés | Critères validés | Statut |
 |--------|------------|------------------|--------|
-| 2 | 3 | Critère 1 | OK |
-| 2 | 3 | Critère 2 | OK |
-| 2 | 3 | Critère 3 | OK |
-| 2 | 5 | Critère 4 | OK |
-| 2 | 5 | Critère 4 | OK |
+| 3 | 3 | Critère 1 | OK |
+| 3 | 3 | Critère 2 | OK |
+| 3 | 3 | Critère 3 | OK |
+| 3 | 5 | Critère 4 | OK |
+| 3 | 5 | Critère 4 | OK |
 
 # EPIC-2-FM-10
 
 | Sprint | Dés lancés | Critères validés | Statut |
 |--------|------------|------------------|--------|
-| 2 | 3 | Critère 1 | OK |
-| 2 | 2 | Critère 2 | OK |
-| 2 | 3 | Critère 3 | OK |
-| 2 | 8 | Critère 4 | OK |
-| 2 | 10 | Critère 4 | OK |
-| 2 | 1 | Critère 2 | OK |
-| 2 | 3 | Critère 3 | OK |
-| 2 | 3 | Critère 4 | OK |
-| 2 | 2 | Critère 4 | OK |
+| 3 | 3 | Critère 1 | OK |
+| 3 | 2 | Critère 2 | OK |
+| 3 | 3 | Critère 3 | OK |
+| 3 | 8 | Critère 4 | OK |
+| 3 | 10 | Critère 4 | OK |
+| 3 | 1 | Critère 2 | OK |
+| 3 | 3 | Critère 3 | OK |
+| 3 | 3 | Critère 4 | OK |
+| 3 | 2 | Critère 4 | OK |
 
 # EPIC-2-FM-11
 
 | Sprint | Dés lancés | Critères validés | Statut |
 |--------|------------|------------------|--------|
-| 2 | 5 | Critère 1 | OK |
-| 2 | 1 | Critère 2 | OK |
-| 2 | 8 | Critère 3 | OK |
-| 2 | 3 | Critère 4 | OK |
-| 2 | 1 | Critère 4 | OK |
+| 3 | 5 | Critère 1 | OK |
+| 3 | 1 | Critère 2 | OK |
+| 3 | 8 | Critère 3 | OK |
+| 3 | 3 | Critère 4 | OK |
+| 3 | 1 | Critère 4 | OK |
 
 ---
 
