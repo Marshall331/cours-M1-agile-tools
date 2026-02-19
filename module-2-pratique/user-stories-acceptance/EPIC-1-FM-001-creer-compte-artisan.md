@@ -81,81 +81,140 @@ _Aucun (US fonctionnelle)_
 | 0 | 1 | Critère 2 | OK |
 | 0 | 4 | Critère 3 | OK |
 
+# EPIC-1-FM-3
+
+| Sprint | Dés lancés | Critères validés | Statut |
+|--------|------------|------------------|--------|
+| 1 | 2 | Critère 1 | OK |
+| 1 | 4 | Critère 2 | OK |
+| 1 | 2 | Critère 3 | OK |
+| 1 | 4 | Critère 4 | OK |
+| 1 | 1 | Critère 5 | OK |
+
+
+# EPIC-1-FM-4
+
+| Sprint | Dés lancés | Critères validés | Statut |
+|--------|------------|------------------|--------|
+| 1 | 1 | Critère 1 | OK |
+| 1 | 2 | Critère 2 | OK |
+| 1 | 3 | Critère 3 | OK |
+| 1 | 4 | Critère 4 | OK |
+| 1 | 6 | Critère 5 | OK |
+| 1 | 5 | Critère 6 | OK |
+| 1 | 6 | Critère 7 | OK |
+| 1 | 2 | Critère 8 | OK |
+| 1 | 3 | Critère 9 | OK |
+
 # EPIC-1-FM-5
 
 | Sprint | Dés lancés | Critères validés | Statut |
 |--------|------------|------------------|--------|
-| 0 | 2 | Critère 1 | OK |
-| 0 | 2 | Critère 2 | OK |
-| 0 | 2 | Critère 3 | OK |
+| 1 | 3 | Critère 1 | OK |
+| 1 | 2 | Critère 2 | OK |
+| 1 | 5 | Critère 3 | OK |
 
 # EPIC-1-FM-6
 
 | Sprint | Dés lancés | Critères validés | Statut |
 |--------|------------|------------------|--------|
-| 0 | 1 | Critère 1 | OK |
-| 0 | 1 | Critère 2 | OK |
-| 0 | 5 | Critère 3 | OK |
+| 1 | 1 | Critère 1 | OK |
+| 1 | 1 | Critère 2 | OK |
+| 1 | 5 | Critère 3 | OK |
+
+# Bonus CI CD
+
+| Sprint | Dés lancés | Critères validés | Statut |
+|--------|------------|------------------|--------|
+| 1 | 1 | Critère 1 | OK |
+| 1 | 1 | Critère 2 | OK |
+| 1 | 2 | Critère 3 | OK |
+| 1 | 4 | Critère 4 | OK |
+| 1 | 3 | Critère 5 | OK |
 
 # EPIC-1-FM-7
 
 | Sprint | Dés lancés | Critères validés | Statut |
 |--------|------------|------------------|--------|
-| 0 | 1 | Critère 1 | OK |
-| 0 | 4 | Critère 2 | OK |
-| 0 | 1 | Critère 3 | OK |
-| 0 | 5 | Critère 4 | OK |
-| 0 | 5 | Critère 5 | OK |
+| 2 | 1 | Critère 1 | OK |
+| 2 | 4 | Critère 2 | OK |
+| 2 | 1 | Critère 3 | OK |
+| 2 | 5 | Critère 4 | OK |
+| 2 | 5 | Critère 5 | OK |
 
-Bonus CI CD
-
-| Sprint | Dés lancés | Critères validés | Statut |
-|--------|------------|------------------|--------|
-| 0 | 1 | Critère 1 | OK |
-| 0 | 1 | Critère 2 | OK |
-| 0 | 2 | Critère 3 | OK |
-| 0 | 4 | Critère 4 | OK |
-| 0 | 3 | Critère 5 | OK |
-
-BUG 001
+# BUG 001
 
 | Sprint | Dés lancés | Critères validés | Statut |
 |--------|------------|------------------|--------|
-| 0 | 6 | Critère 1 | OK |
-| 0 | 6 | Critère 2 | OK |
-| 0 | 9 | Critère 3 | OK |
-| 0 | 1 | Critère 4 | OK |
-| 0 | 3 | Critère 5 | OK |
+| 2 | 6 | Critère 1 | OK |
+| 2 | 6 | Critère 2 | OK |
+| 2 | 9 | Critère 3 | OK |
+| 2 | 1 | Critère 4 | OK |
+| 2 | 3 | Critère 5 | OK ||
 
-FM7
-
-| Sprint | Dés lancés | Critères validés | Statut |
-|--------|------------|------------------|--------|
-| 0 | 1 | Critère 1 | OK |
-| 0 | 1 | Critère 2 | OK |
-| 0 | 4 | Critère 3 | OK |
-| 0 | 1 | Critère 4 | OK |
-| 0 | 12 | Critère 5 | OK |
-
-FM
+# EPIC-1-FM-8
 
 | Sprint | Dés lancés | Critères validés | Statut |
 |--------|------------|------------------|--------|
-| 0 | 2 | Critère 1 | OK |
-| 0 | 2 | Critère 2 | OK |
-| 0 | 2 | Critère 3 | OK |
-| 0 | 1 | Critère 4 | OK |
+| 2 | 2 | Critère 1 | OK |
+| 2 | 2 | Critère 2 | OK |
+| 2 | 2 | Critère 3 | OK |
+| 2 | 2 | Critère 4 | OK |
+| 2 | 3 | Critère 4 | OK |
 
-Bonus infa test
+# Bonus infa test
 
 | Sprint | Dés lancés | Critères validés | Statut |
 |--------|------------|------------------|--------|
-| 0 | 1 | Critère 1 | OK |
-| 0 | 1 | Critère 2 | OK |
-| 0 | 1 | Critère 3 | OK |
-| 0 | 4 | Critère 4 | OK |
-| 0 | 1 | Critère 4 | OK |
+| 2 | 1 | Critère 1 | OK |
+| 2 | 1 | Critère 2 | OK |
+| 2 | 1 | Critère 3 | OK |
+| 2 | 4 | Critère 4 | OK |
+| 2 | 1 | Critère 4 | OK |
 
+# BUG 02
+
+| Sprint | Dés lancés | Critères validés | Statut |
+|--------|------------|------------------|--------|
+| 2 | 3 | Critère 1 | OK |
+| 2 | 1 | Critère 2 | OK |
+| 2 | 3 | Critère 3 | OK |
+| 2 | 4 | Critère 4 | OK |
+| 2 | 2 | Critère 4 | OK |
+
+# EPIC-2-FM-9
+
+| Sprint | Dés lancés | Critères validés | Statut |
+|--------|------------|------------------|--------|
+| 2 | 3 | Critère 1 | OK |
+| 2 | 3 | Critère 2 | OK |
+| 2 | 3 | Critère 3 | OK |
+| 2 | 5 | Critère 4 | OK |
+| 2 | 5 | Critère 4 | OK |
+
+# EPIC-2-FM-10
+
+| Sprint | Dés lancés | Critères validés | Statut |
+|--------|------------|------------------|--------|
+| 2 | 3 | Critère 1 | OK |
+| 2 | 2 | Critère 2 | OK |
+| 2 | 3 | Critère 3 | OK |
+| 2 | 8 | Critère 4 | OK |
+| 2 | 10 | Critère 4 | OK |
+| 2 | 1 | Critère 2 | OK |
+| 2 | 3 | Critère 3 | OK |
+| 2 | 3 | Critère 4 | OK |
+| 2 | 2 | Critère 4 | OK |
+
+# EPIC-2-FM-11
+
+| Sprint | Dés lancés | Critères validés | Statut |
+|--------|------------|------------------|--------|
+| 2 | 5 | Critère 1 | OK |
+| 2 | 1 | Critère 2 | OK |
+| 2 | 8 | Critère 3 | OK |
+| 2 | 3 | Critère 4 | OK |
+| 2 | 1 | Critère 4 | OK |
 
 ---
 
